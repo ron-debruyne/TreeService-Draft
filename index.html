@@ -1,0 +1,67 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+      <title>Canadian Tree Service</title>
+  </head>
+
+  <body>
+    <section class="showcase">
+        <header>
+          <h2 class="logo">Canadian Tree Service</h2>
+          <h2 class="phone"><a href="tel:2504169066">Click Here to Call Now (250) 416-9066</a></h3>
+
+          <div class="toggle"></div>
+        </header>
+            
+        <video src="TreeServiceVideo720.mov" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+
+        <div class="text">
+          <h2>Professional Tree Removal</h2> 
+          <h3>Fast, Clean, & Safe</h3>
+          <p>Do you have a dangerous tree you need dealth with, or winter blow down that you need removed? We handle everything including tree falling, chipping & disposal, and final site clean up.</p>
+          <p>Call us today for a free assessment.</p>
+          <a href="#">Contact Us</a>
+        </div>
+
+        <ul class="social">
+          <li><a href="https://www.facebook.com/people/Canadian-Tree-Service/100049882166746/"><img src="facebook.png"></a></li>
+          <li><a href="#"><img src="twitter.png"></a></li>
+          <li><a href="#"><img src="instagram.png"></a></li>
+        </ul>
+      </section>
+
+      <section>
+          <ul>
+              <li>test</li>
+              <li>test</li>
+
+          </ul>
+      </section>
+
+      <div class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Where We Service</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Testamonials</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    
+      <script>
+          const menuToggle = document.querySelector('.toggle')
+          const showcase = document.querySelector('.showcase')
+
+          menuToggle.addEventListener('click', () => {
+              menuToggle.classList.toggle('acive')
+              showcase.classList.toggle('acive')
+          })
+      </script>
+    </body>
+  </html>
